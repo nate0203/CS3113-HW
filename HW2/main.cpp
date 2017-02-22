@@ -2,9 +2,8 @@
 	HW2.cpp, CS3113 Pong Game
 	User 1 (Left/Red Paddle): W - up, S - down
 	User 2 (Blue/Right Paddle): UP arrow - up, DOWN arrow -down
-	Notes: 
-	If the ball hits the top of the paddle, current round is still good.
-	All movement by the ball is at a 45 degree angle when hit anywhere on the paddle.
+	Notes: If the ball hits the top of the paddle, current round is still good.
+		   All movement by the ball is at a 45 degree angle when hit anywhere on the paddle.
 */
 #ifdef _WINDOWS
 #include <GL/glew.h>
@@ -30,10 +29,8 @@ class Entity {
 public:
 	float x;
 	float y;
-
 	float width;
 	float height;
-
 	float speed;
 	float direction_x;
 	float direction_y;
@@ -145,13 +142,13 @@ int main(int argc, char *argv[])
 			POLLING FOR PLAYER 1, W key to move up, S key to move down
 		*/
 		if (keys[SDL_SCANCODE_W]) {
-			if (l_pad.y + elapsed * 1.1f < 1.4f)
+			if (l_pad.y + elapsed * l_pad.speed < 1.4f)
 				l_pad.y += elapsed * l_pad.speed;
 			else
 				l_pad.y = 1.4f;
 		}
 		if (keys[SDL_SCANCODE_S]) {
-			if (l_pad.y - elapsed * 1.1f > -1.4f)
+			if (l_pad.y - elapsed * l_pad.speed > -1.4f)
 				l_pad.y -= elapsed * l_pad.speed;
 			else
 				l_pad.y = -1.4f;
@@ -160,13 +157,13 @@ int main(int argc, char *argv[])
 			POLLING FOR PLAYER 2, UP arrow to move up, DOWN arrow to move down
 		*/
 		if (keys[SDL_SCANCODE_UP]) {
-			if (r_pad.y + elapsed * 1.1f < 1.4f)
+			if (r_pad.y + elapsed * r_pad.speed < 1.4f)
 				r_pad.y += elapsed * r_pad.speed;
 			else
 				r_pad.y = 1.4f;
 		}
 		if (keys[SDL_SCANCODE_DOWN]) {
-			if (r_pad.y - elapsed * 1.1f > -1.4f)
+			if (r_pad.y - elapsed * r_pad.speed > -1.4f)
 				r_pad.y -= elapsed * r_pad.speed;
 			else
 				r_pad.y = -1.4f;
@@ -184,7 +181,6 @@ int main(int argc, char *argv[])
 			r_pad.y = 0.0f;
 			win = 0.0f;
 		}
-
 		/* 
 			Collision Detection
 			Checks ball's next position and compares to the 4 objects
