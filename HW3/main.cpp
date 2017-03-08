@@ -1,5 +1,8 @@
 /*
 	HW3 Space Invaders, By: Nathan Ly
+	Space Invader Mechanics:
+		- Player can only have 1 bullet shot until it hits an alien or disappears
+		- Enemy bullets/laser must reach past screen or else you are hit
 */
 #ifdef _WINDOWS
 	#include <GL/glew.h>
@@ -223,7 +226,7 @@ void Restart() {
 	for (int i = 0; i < MAX_BULLETS; ++i) {
 		int index = rand() % aliens.size();
 		Entity aBullet;
-		aBullet.sprite = SheetSprite(spriteTexture, 841.0f / 1024.0f, 647.0f / 1024.0f, 13.0f / 1024.0f, 37.0f / 1024.0f, 0.2f);
+		aBullet.sprite = SheetSprite(spriteTexture, 841.0f / 1024.0f, 647.0f / 1024.0f, 13.0f / 1024.0f, 37.0f / 1024.0f, 0.15f);
 		aBullet.height = aBullet.sprite.size;
 		aBullet.width = aBullet.sprite.width / aBullet.sprite.height * aBullet.sprite.size;
 		aBullet.positionX = aliens[index].positionX;
