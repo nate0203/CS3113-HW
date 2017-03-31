@@ -1,5 +1,22 @@
-﻿  main.cpp
-c:\users\nate\documents\visual studio 2015\projects\hw4\main.cpp(180): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-c:\users\nate\documents\visual studio 2015\projects\hw4\main.cpp(510): warning C4715: 'Entity::collides': not all control paths return a value
-  HW4.vcxproj -> C:\Users\Nate\Documents\Visual Studio 2015\Projects\HW4\Debug\HW4.exe
-  HW4.vcxproj -> C:\Users\Nate\Documents\Visual Studio 2015\Projects\HW4\Debug\HW4.pdb (Full PDB)
+﻿  ShaderProgram.cpp
+  Matrix.cpp
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(148): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(151): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(165): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(166): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(167): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(168): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(172): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(173): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(175): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(213): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw4\matrix.cpp(214): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+c:\users\nate\documents\github\cs3113-hw\hw4\main.cpp(180): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+c:\users\nate\documents\github\cs3113-hw\hw4\main.cpp(510): warning C4715: 'Entity::collides': not all control paths return a value
+  HW4.vcxproj -> C:\Users\Nate\Documents\GitHub\CS3113-HW\HW4\Debug\HW4.exe
+  HW4.vcxproj -> C:\Users\Nate\Documents\GitHub\CS3113-HW\HW4\Debug\HW4.pdb (Full PDB)

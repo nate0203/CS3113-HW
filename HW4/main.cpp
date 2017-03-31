@@ -282,7 +282,7 @@ void Setup() {
 
 	l.sprite.scale(5.0f, 0.4f);
 	l.pos_x = 1.0f;
-	l.pos_y = 2.4f;
+	l.pos_y = 2.3f;
 	walls.push_back(l);
 
 	l.sprite.scale(6.0f, 0.4f);
