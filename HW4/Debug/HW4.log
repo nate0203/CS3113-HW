@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\nate\documents\visual studio 2015\projects\hw4\main.cpp(180): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\visual studio 2015\projects\hw4\main.cpp(510): warning C4715: 'Entity::collides': not all control paths return a value
+  HW4.vcxproj -> C:\Users\Nate\Documents\Visual Studio 2015\Projects\HW4\Debug\HW4.exe
+  HW4.vcxproj -> C:\Users\Nate\Documents\Visual Studio 2015\Projects\HW4\Debug\HW4.pdb (Full PDB)
