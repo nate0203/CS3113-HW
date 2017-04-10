@@ -1,0 +1,38 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (NYUCodebase.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ShaderProgram.cpp
+  Matrix.cpp
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(148): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(151): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(165): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(166): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(167): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(168): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(172): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(173): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(175): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(213): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\matrix.cpp(214): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(84): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(87): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(101): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(102): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(104): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(130): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(148): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(172): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(180): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(344): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(352): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(360): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(410): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(412): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(421): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(426): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw5\main.cpp(431): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  HW5.vcxproj -> C:\Users\Nate\Documents\GitHub\CS3113-HW\HW5\Debug\HW5.exe
+  HW5.vcxproj -> C:\Users\Nate\Documents\GitHub\CS3113-HW\HW5\Debug\HW5.pdb (Full PDB)
