@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (HW3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ShaderProgram.cpp
+  Matrix.cpp
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(148): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(151): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(165): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(166): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(167): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(168): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(172): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(173): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(175): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(213): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\github\cs3113-hw\hw6\matrix.cpp(214): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  HW6.vcxproj -> C:\Users\Nate\Documents\GitHub\CS3113-HW\HW6\Debug\HW6.exe
+  HW6.vcxproj -> C:\Users\Nate\Documents\GitHub\CS3113-HW\HW6\Debug\HW6.pdb (Full PDB)
