@@ -1,3 +1,9 @@
+/*
+	By: Nathan Ly
+	ESC - escape game
+	1 - Spawn Knight
+	2 - Spawn Archer
+*/
 #ifdef _WINDOWS
 	#include <GL/glew.h>
 #endif
