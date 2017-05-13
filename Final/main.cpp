@@ -1,5 +1,6 @@
 /*
 	By: Nathan Ly
+	Goal: Defend your tower, must attack to beat enemy tower
 	ESC - escape game
 	1 - Spawn Knight
 	2 - Spawn Archer
@@ -228,7 +229,6 @@ Mix_Chunk* hit;
 Mix_Chunk* gameOver;
 Mix_Chunk* gameWin;
 Mix_Music* music;
-Entity leviathan;
 std::vector<Knight> knight;
 std::vector<Archer> archer;
 std::vector<Knight> otherKnight;
@@ -515,7 +515,7 @@ void UpdateDefend(float elapsed) {
 	}
 }
 
-void AI(float elapsed) {
+void AI(float elapsed) { // spawn enemy based on timer
 	int choice = rand() % 100 + 1;
 	spawnTimer += elapsed;
 	if (knight.size() >= 0 && otherKnight.size() == 0 && enemySpawn > 0) {
@@ -579,7 +579,7 @@ void Archer::Update(float elapsed) {
 		position.x += velocity.x * elapsed;	
 }
 
-void Collide(float elapsed) {
+void Collide(float elapsed) {	// checks for attack, hitbox location then random value comparison
 	if (knight.size() > 0 || otherKnight.size() > 0) {
 		for (int i = 0; i < knight.size(); ++i) {
 			bool atk = false;
