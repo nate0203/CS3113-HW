@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (NYUCodebase.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(52): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(372): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(561): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(570): warning C4553: '==': operator has no effect; did you intend '='?
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(578): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(586): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(609): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(644): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(652): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(674): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(709): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(717): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(739): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(775): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(783): warning C4018: '<': signed/unsigned mismatch
+c:\users\nate\documents\visual studio 2015\projects\final\main.cpp(805): warning C4018: '<': signed/unsigned mismatch
